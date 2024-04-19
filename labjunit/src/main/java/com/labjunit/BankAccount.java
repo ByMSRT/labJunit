@@ -12,6 +12,7 @@ public class BankAccount {
         if(montant > solde) {
             throw new IllegalArgumentException("Le montant à débiter est supérieur au solde du compte");
         }
+        /* Test */
         solde -= montant;
     }
 
